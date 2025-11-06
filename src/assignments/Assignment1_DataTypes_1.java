@@ -14,8 +14,9 @@ public class Assignment1_DataTypes_1 {
 		System.out.println("2. Whether a customer has placed an order: " + orderPlaced);
 		
 //		3. Person's phone number: "123-456-7890"
-		long phonenbr = 9019312039l;
-		System.out.println("3. Rajs phone number: " +"'"+ phonenbr +"'");
+		long phonenbr = 9019312039l; 
+		String PhnNo = "901-931-2039";
+		System.out.println("3. Rajs phone number: " +"'"+ phonenbr +"'" + " OR " + PhnNo );
 
 //		4. Amount of money in a customer's bank account: 1000.50
 		float AccountBalance = 1034123.50f;
@@ -66,6 +67,7 @@ public class Assignment1_DataTypes_1 {
 //		14.Title of a book: "To Kill a Mockingbird"
 		String book = "To Kill a Mockingbird";
 		System.out.println("14.Title of a book: " + book);
+		
 		
 //		15.Number of employees in a company: 500
 		int Number_Emp = 500;

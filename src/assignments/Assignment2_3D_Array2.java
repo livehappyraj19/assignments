@@ -1,4 +1,4 @@
-package language.basics;
+package assignments;
 
 public class Assignment2_3D_Array2 {
 	
@@ -93,6 +93,15 @@ public class Assignment2_3D_Array2 {
 		System.out.println("Semester 5, Subject 3 Marks: " + data[4][1][2]); // Compiler Design - Pass(84)
 		System.out.println("Semester 5, Subject 6 Marks: " + data[4][1][5]); // Computer Graphics - Pass(90)
 
+		
+		 System.out.println("Semester 1, Subject 1: " + data[0][0][0]); 
+	        System.out.println("Semester 1, Subject 2: " + data[0][0][1]); 
+	        System.out.println("Semester 1, Subject 3: " + data[0][0][2]);
+	        
+	        System.out.println("Semester 1, Subject 1 Status/Marks: " + data[0][1][0]); 
+	        System.out.println("Semester 1, Subject 2 Status/Marks: " + data[0][1][1]); 
+	        System.out.println("Semester 1, Subject 3 Status/Marks: " + data[0][1][2]);
+	        System.out.println("---------------------------------------------------");
 	}
 
 

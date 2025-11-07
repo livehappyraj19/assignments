@@ -1,6 +1,6 @@
-package classes.objects;
+package assignments;
 
-public class EmpMainClass {
+public class Assignment3_EmpMainClass {
 
 	 String Emp_Name1 = "Bharath";
 	 String Emp_Name2 = "John";
@@ -12,7 +12,7 @@ public class EmpMainClass {
 	
 	
 	public static void main(String[] args) {
-		EmpMainClass obj =new EmpMainClass(); //Create object
+		Assignment3_EmpMainClass obj =new Assignment3_EmpMainClass(); //Create object
 
 //		Create an Employees class that stores the following 
 //		employee names and IDs in separate variables:

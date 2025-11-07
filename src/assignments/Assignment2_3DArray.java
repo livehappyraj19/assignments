@@ -8,9 +8,6 @@ public class Assignment2_3DArray {
 //		o Actual values for Subject Names and Marks as the third dimension.
 	 
 
-//	package assignments;
-//
-//	public class Assignment2_Arrays_Solution1 {
 
 		public static void main(String[] args) {
 			
@@ -39,6 +36,44 @@ public class Assignment2_3DArray {
 			                }
 			        };
 
+			        
+			        System.out.println("Semester 1, Subject 1: " + data[0][0][0]); 
+			        System.out.println("Semester 1, Subject 2: " + data[0][0][1]); 
+			        System.out.println("Semester 1, Subject 3: " + data[0][0][2]);
+			        
+			        System.out.println("Semester 1, Subject 1 Status/Marks: " + data[0][1][0]); 
+			        System.out.println("Semester 1, Subject 2 Status/Marks: " + data[0][1][1]); 
+			        System.out.println("Semester 1, Subject 3 Status/Marks: " + data[0][1][2]);
+			        System.out.println("---------------------------------------------------");
+			        
+			        System.out.println("Semester 2, Subject 1: " + data[1][0][0]); 
+			        System.out.println("Semester 2, Subject 2: " + data[1][0][1]); 
+			        System.out.println("Semester 2, Subject 3: " + data[1][0][2]);
+			        
+			        System.out.println("Semester 2, Subject 1 Status/Marks: " + data[1][1][0]); 
+			        System.out.println("Semester 2, Subject 2 Status/Marks: " + data[1][1][1]); 
+			        System.out.println("Semester 2, Subject 3 Status/Marks: " + data[1][1][2]);
+			        System.out.println("---------------------------------------------------");
+			        
+			        System.out.println("Semester 3, Subject 1: " + data[2][0][0]); 
+			        System.out.println("Semester 3, Subject 2: " + data[2][0][1]); 
+			        System.out.println("Semester 3, Subject 3: " + data[2][0][2]);
+			        
+			        System.out.println("Semester 3, Subject 1 Status/Marks: " + data[2][1][0]); 
+			        System.out.println("Semester 3, Subject 2 Status/Marks: " + data[2][1][1]); 
+			        System.out.println("Semester 3, Subject 3 Status/Marks: " + data[2][1][2]);
+			        System.out.println("---------------------------------------------------");
+		
+			        System.out.println("Semester 4, Subject 1: " + data[3][0][0]); 
+			        System.out.println("Semester 4, Subject 2: " + data[3][0][1]); 
+			        System.out.println("Semester 4, Subject 3: " + data[3][0][2]);
+			        
+			        System.out.println("Semester 4, Subject 1 Status/Marks: " + data[3][1][0]); 
+			        System.out.println("Semester 4, Subject 2 Status/Marks: " + data[3][1][1]); 
+			        System.out.println("Semester 4, Subject 3 Status/Marks: " + data[3][1][2]);
+			        System.out.println("---------------------------------------------------");
+			        
+			        
 			        // Print Semester 3 Subject 4 and Subject 5 names
 			        System.out.println("Semester 3, Subject 4: " + data[2][0][3]); // Operating Systems
 			        System.out.println("Semester 3, Subject 5: " + data[2][0][4]); // Signals and Systems

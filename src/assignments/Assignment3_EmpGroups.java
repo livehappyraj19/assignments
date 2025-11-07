@@ -1,21 +1,18 @@
-package classes.objects;
+package assignments;
 
 //Then, create another class called EmpGroups that contains 
 //two arrays to store the employee names and IDs.
-//
 //Retrieve the data from the Employees class, store it in these arrays, 
 //and finally print each employee's name along with their corresponding ID.
 //Example:
 //• Employee Name: Bharath, Employee ID: 1234
 
-public class EmpGroups {
+public class Assignment3_EmpGroups {
 
-//	String [] Emp_Names = { "Bharath", "John", "Aarav" };
-//	int [] Emp_Id = { 1234,1235, 1236};
 
 	public static void main(String[] args) {
 		
-		EmpMainClass obj =new EmpMainClass(); //Create object
+		Assignment3_EmpMainClass obj =new Assignment3_EmpMainClass(); //Create object
 // Array to Store the Emp Names in this class from other class ---------		
 		String [] Emp_Name = new String[3];
 

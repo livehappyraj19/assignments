@@ -98,7 +98,7 @@ public class Assignment4_CollectionsInJava {
 		
 		List<String> topMovies = Arrays.asList(
 				"Avatar", "Avengers: Endgame", "Avatar: The Way of Water", "Titanic", "Ne Zha 2" );
-		System.out.println("the third movie in top 5 highest-grossing movies : " + topMovies.get(2));
+		System.out.println("the 3rd --third movie in top 5 highest-grossing movies : " + topMovies.get(2));
 		
 	}
 

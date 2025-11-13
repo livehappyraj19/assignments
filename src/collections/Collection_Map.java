@@ -57,6 +57,7 @@ public class Collection_Map {
 		
 //		 Adding all 3 student into one List
 		System.out.println("=======Adding all 3 student into one List=======");
+		
 		List<Map<String,String>> studentList = new ArrayList<Map<String,String>>();
 		
 		studentList.add(student1);
@@ -65,6 +66,7 @@ public class Collection_Map {
 		
 		System.out.println(studentList);
 
+		
 	}
 
 }

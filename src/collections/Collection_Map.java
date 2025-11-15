@@ -66,7 +66,60 @@ public class Collection_Map {
 		
 		System.out.println(studentList);
 
+//		---  @nd table
+		
+		Map <String, String> emp1Map = new HashMap<String, String> ();
+		emp1Map.put("EmpID", "E001");
+		emp1Map.put("Name", "Alice Green");
+		emp1Map.put("Age", "30");
+		emp1Map.put("Gender", "FeMale");
+		emp1Map.put("Department", "Engineering");
+		emp1Map.put("Position", "Software Engineer");
+		emp1Map.put("Salary", "75K Pounds");
+		emp1Map.put("Email", "alice@example.com");
+		emp1Map.put("PAN Number", "SDF6543210");
+
+		System.out.println(emp1Map);
+		
+		Map <String, String>  emp2Map = new HashMap<String, String> ();
+		emp2Map.put("EmpID", "E002");
+		emp2Map.put("Name", "Bob Johnson");
+		emp2Map.put("Age", "35");
+		emp2Map.put("Gender", "Male");
+		emp2Map.put("Department", "Marketing");
+		emp2Map.put("Position", "Marketing Manager");
+		emp2Map.put("Salary", "85K Pounds");
+		emp2Map.put("Email", "bob@example.com");
+		emp2Map.put("PAN Number", "REW6543211");
+		
+		System.out.println(emp2Map);
+		
+		Map <String, String> emp3Map = new HashMap <String,String> ();
+		emp3Map.put("EmpID", "E003");
+		emp3Map.put("Name", "Carol White");
+		emp3Map.put("Age", "28");
+		emp3Map.put("Gender", "Male");
+		emp3Map.put("Department", "Sales");
+		emp3Map.put("Position", "Sales Executive");
+		emp3Map.put("Salary", "65K Pounds");
+		emp3Map.put("Email", "carol@example.com");
+		emp3Map.put("PAN Number", "TYR6543212");
+		
+		System.out.println(emp3Map);
+		
+//		 Adding all 3 student into one List
+		System.out.println("=======Adding all 3 Emp into one List=======");
+		
+		List<Map<String,String>> empList = new ArrayList<Map<String,String>>();
+		
+		empList.add(emp1Map);
+		empList.add(emp2Map);
+		empList.add(emp3Map);
+		
+		System.out.println(empList);
 		
 	}
+	
+	
 
 }

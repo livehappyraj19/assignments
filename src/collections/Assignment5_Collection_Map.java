@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Collection_Map {
+public class Assignment5_Collection_Map {
 
 	public static void main(String[] args) {
 		System.out.println("---Assessment 5-- Maps in Collections-----");
@@ -66,7 +66,7 @@ public class Collection_Map {
 		
 		System.out.println(studentList);
 
-//		---  @nd table
+//		---  2nd table
 		
 		Map <String, String> emp1Map = new HashMap<String, String> ();
 		emp1Map.put("EmpID", "E001");
@@ -117,6 +117,67 @@ public class Collection_Map {
 		empList.add(emp3Map);
 		
 		System.out.println(empList);
+		
+
+		Map<String, String> product1 = new HashMap <String,String>();
+		product1.put("Name", "Laptop");
+		product1.put("Category", "Electronics");
+		product1.put("Price", "12K Pounds");
+		product1.put("Stock_Quantity", "Not Available");
+		product1.put("Supplier", "Tech Supplies");
+		product1.put("Warranty", "2 Years");
+		product1.put("Rating", 	"4.5 Stars");
+		product1.put("ManufactureDate", "Aug 2023"	);
+		product1.put("Expiry Date", "Aug 2028");
+		
+		System.out.println(product1);  
+		
+		Map<String, String> product2 = new HashMap <String,String>();
+		product2.put("Name", "Desk Chair");
+		product2.put("Category", "Furniture");
+		product2.put("Price", "150K Pounds");
+		product2.put("Stock_Quantity", "2");
+		product2.put("Supplier", "Office Depot");
+		product2.put("Warranty", "1 Years");
+		product2.put("Rating", 	"4 Stars");
+		product2.put("ManufactureDate", "Sep 2024"	);
+		product2.put("Expiry Date", "NA");
+		
+		System.out.println(product2);  
+		
+		Map <String,String> product3 = new HashMap<String,String>();
+		product3.put("Name", "Coffee Maker");
+		product3.put("Category", "Kitchen");
+		product3.put("Price", "75K Pounds");
+		product3.put("Stock_Quantity", "200");
+		product3.put("Supplier", "Kitchen World");
+		product3.put("Warranty", "6 Months");
+		product3.put("Rating", 	"4.2 Stars");
+		product3.put("ManufactureDate", "Jan 2025"	);
+		product3.put("Expiry Date", "Jan 2027");
+		
+		System.out.println(product3);
+		
+//		 Adding all 3 Products into one List
+		System.out.println("=======Adding all 3 Products into one List=======");
+	
+		List<Map<String,String>> productList = new ArrayList<Map<String, String>> ();
+		empList.add(emp1Map);
+		
+		productList.add(product1);
+		productList.add(product2);
+		productList.add(product3);
+		
+		Map <String, List<Map<String,String>>> allTables =new HashMap<String,List<Map<String,String>>> ();
+		allTables.put("Products", productList);
+		allTables.put("Employees", empList);
+		allTables.put("Students", studentList);
+		
+		System.out.println("--=====ALL Tables======");
+		System.out.println(allTables);
+		
+//		System.out.println( allTables.get(Employees[Supplier]));
+		
 		
 	}
 	

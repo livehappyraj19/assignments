@@ -41,7 +41,7 @@ public class Assignment6_Operator_Variables {
 		averageMarks =  (updatedMarks[0] + updatedMarks[1] + updatedMarks[2]) /3.0 ;
 		System.out.println("The Average of the Upadted Marks is : " + averageMarks);
 		
-//		---Original Array changed  if u upade the existing array so use diff array to update
+//		---Original Array changed  if u upate the existing array so use diff array to update
 		System.out.println (studentName[0] + " : " + marks[0] );
 		System.out.println (studentName[1] + " : " + marks[1] );
 		System.out.println (studentName[2] + " : " + marks[2] );

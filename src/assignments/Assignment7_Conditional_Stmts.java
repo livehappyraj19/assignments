@@ -22,7 +22,7 @@ public class Assignment7_Conditional_Stmts {
 		double creditScore = 652;
 		double customerIncome = 51000;
 		boolean employmentStatus = true;
-		double debt_to_Income_Ratio = 49.0 ;
+		double debt_to_Income_Ratio = 39.0 ;
 		
 		if (creditScore > 750 ) {
 			System.out.println("The loan is automatically approved.");

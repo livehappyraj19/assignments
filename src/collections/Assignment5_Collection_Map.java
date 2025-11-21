@@ -176,7 +176,7 @@ public class Assignment5_Collection_Map {
 		System.out.println("--=====ALL Tables======");
 		System.out.println(allTables);
 		
-//		System.out.println( allTables.get(Employees[Supplier]));
+		System.out.println( allTables.get("Products").get(1).get("Supplier"));
 		
 		
 	}

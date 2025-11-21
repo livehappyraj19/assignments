@@ -1,4 +1,4 @@
-package collections;
+package assignments;
 
 import java.util.ArrayList;
 import java.util.HashMap;
